@@ -42,9 +42,9 @@ Leo Krohne and Lukas Bauerschmidt
     - X = Factors that may influence cost savings
 
 ## Project Plan
-- Day 1: Data cleaning and prep
-- Day 2: Data grouping & extracting insights
+- Day 1: Data cleaning and grouping & extracting insights
+- Day 2: Further insights & Visualization
 - Day 3: Visualization
     - (optional: linear regression on elegibility of free audit)
-- Day 4: Visualization, storytelling & presentation
+- Day 4: Storytelling & presentation
 - Day 5: Presentation of results
