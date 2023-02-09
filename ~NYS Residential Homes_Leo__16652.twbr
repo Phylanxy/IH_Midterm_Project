@@ -139,7 +139,7 @@
             <column datatype='integer' name='cumulative_sum_savings$' ordinal='38' />
             <column datatype='integer' name='cumulative_sum_costs' ordinal='39' />
             <column datatype='real' name='amortisation_time' ordinal='40' />
-            <column datatype='datetime' date-parse-format='yyyy' name='year_of_amortisation' ordinal='41' />
+            <column datatype='integer' name='year_of_amortisation' ordinal='41' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0t90x2y136j12f132kkiz08pkpbx' name='dataset_clean.csv' table='[dataset_clean#csv]' type='table'>
@@ -185,7 +185,7 @@
             <column datatype='integer' name='cumulative_sum_savings$' ordinal='38' />
             <column datatype='integer' name='cumulative_sum_costs' ordinal='39' />
             <column datatype='real' name='amortisation_time' ordinal='40' />
-            <column datatype='datetime' date-parse-format='yyyy' name='year_of_amortisation' ordinal='41' />
+            <column datatype='integer' name='year_of_amortisation' ordinal='41' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
@@ -215,6 +215,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>reporting_period</remote-name>
@@ -226,6 +227,7 @@
             <local-type>datetime</local-type>
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>home_performance_project_id</remote-name>
@@ -240,6 +242,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>home_performance_site_id</remote-name>
@@ -254,6 +257,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>project_county</remote-name>
@@ -268,6 +272,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>project_city</remote-name>
@@ -282,6 +287,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>project_zip</remote-name>
@@ -293,6 +299,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>gas_utility_provider</remote-name>
@@ -307,6 +314,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>electric_utility_provider</remote-name>
@@ -321,6 +329,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>project_completion_date</remote-name>
@@ -332,6 +341,7 @@
             <local-type>date</local-type>
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>customer_type</remote-name>
@@ -346,6 +356,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>job_type</remote-name>
@@ -360,6 +371,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>total_project_cost</remote-name>
@@ -371,6 +383,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>total_incentives</remote-name>
@@ -382,6 +395,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>type_of_program_financing</remote-name>
@@ -396,6 +410,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>financed</remote-name>
@@ -407,6 +422,7 @@
             <local-type>boolean</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>amount_financed_through_program</remote-name>
@@ -418,6 +434,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>pre-retrofit_home_heating_fuel_type</remote-name>
@@ -432,6 +449,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>year_home_built</remote-name>
@@ -443,6 +461,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>size_of_home</remote-name>
@@ -454,6 +473,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>volume_of_home</remote-name>
@@ -465,6 +485,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>number_of_units</remote-name>
@@ -476,6 +497,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>measure_type</remote-name>
@@ -490,6 +512,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>estimated_annual_water_heating_kwh_savings</remote-name>
@@ -501,6 +524,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>estimated_annual_electricity_kwh_savings</remote-name>
@@ -512,6 +536,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>estimated_annual_water_heating_mmbtu_savings</remote-name>
@@ -523,6 +548,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>first_year_energy_savings_$_estimate</remote-name>
@@ -534,6 +560,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>homeowner_received_free/reduced_cost_audit?</remote-name>
@@ -545,6 +572,7 @@
             <local-type>boolean</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>starting_year</remote-name>
@@ -556,6 +584,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>current_year</remote-name>
@@ -567,6 +596,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>year</remote-name>
@@ -579,6 +609,7 @@
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>latitude</remote-name>
@@ -590,6 +621,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>longitude</remote-name>
@@ -601,6 +633,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>savings_sum</remote-name>
@@ -612,6 +645,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>water_heating_price</remote-name>
@@ -623,6 +657,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>electricity_price</remote-name>
@@ -634,6 +669,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>years_since_completion</remote-name>
@@ -645,6 +681,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>savings_since_completion</remote-name>
@@ -656,6 +693,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>cumulative_sum_savings$</remote-name>
@@ -667,6 +705,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>cumulative_sum_costs</remote-name>
@@ -678,6 +717,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>amortisation_time</remote-name>
@@ -689,27 +729,25 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>year_of_amortisation</remote-name>
-            <remote-type>7</remote-type>
+            <remote-type>20</remote-type>
             <local-name>[year_of_amortisation]</local-name>
             <parent-name>[dataset_clean.csv]</parent-name>
             <remote-alias>year_of_amortisation</remote-alias>
             <ordinal>41</ordinal>
-            <local-type>datetime</local-type>
-            <aggregation>Year</aggregation>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset_clean.csv_6FCB75D6543C42AEA9F134ADA4A16E06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
       <column caption='Progress Bar' datatype='integer' name='[Calculation_1171780389439807488]' role='dimension' type='quantitative'>
         <calculation class='tableau' formula='DATEDIFF(&quot;year&quot;, DATETIME(2010),DATETIME(2030))' />
-      </column>
-      <column caption='Date of Amortisation' datatype='datetime' name='[Calculation_1183602338476273664]' role='dimension' type='quantitative'>
-        <calculation class='tableau' formula='DATETIME([year_of_amortisation])' />
       </column>
       <column caption='ROI per Year (State)' datatype='real' name='[Calculation_673569680325468164]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='SUM([first_year_energy_savings_$_estimate])/SUM([total_incentives])' />
@@ -896,7 +934,7 @@
                   <column datatype='integer' name='cumulative_sum_savings$' ordinal='38' />
                   <column datatype='integer' name='cumulative_sum_costs' ordinal='39' />
                   <column datatype='real' name='amortisation_time' ordinal='40' />
-                  <column datatype='datetime' date-parse-format='yyyy' name='year_of_amortisation' ordinal='41' />
+                  <column datatype='integer' name='year_of_amortisation' ordinal='41' />
                 </columns>
               </relation>
             </properties>
@@ -1679,12 +1717,16 @@
             <datasource caption='NYS Energy Efficiency Residential Homes' name='federated.0coo0z20nya3av16k9lp10lpn3f2' />
           </datasources>
           <datasource-dependencies datasource='federated.0coo0z20nya3av16k9lp10lpn3f2'>
-            <column-instance column='[year_of_amortisation]' derivation='Year-Trunc' name='[tyr:year_of_amortisation:qk]' pivot='key' type='quantitative' />
-            <column datatype='datetime' name='[year_of_amortisation]' role='dimension' type='quantitative' />
+            <column caption='Progress Bar' datatype='integer' name='[Calculation_1171780389439807488]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&quot;year&quot;, DATETIME(2010),DATETIME(2030))' />
+            </column>
+            <column-instance column='[Calculation_1171780389439807488]' derivation='None' name='[none:Calculation_1171780389439807488:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
-          <filter class='quantitative' column='[federated.0coo0z20nya3av16k9lp10lpn3f2].[tyr:year_of_amortisation:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0coo0z20nya3av16k9lp10lpn3f2].[none:Calculation_1171780389439807488:qk]' included-values='in-range'>
+            <min>0</min>
+          </filter>
           <slices>
-            <column>[federated.0coo0z20nya3av16k9lp10lpn3f2].[tyr:year_of_amortisation:qk]</column>
+            <column>[federated.0coo0z20nya3av16k9lp10lpn3f2].[none:Calculation_1171780389439807488:qk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1694,11 +1736,11 @@
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Automatic' />
+            <mark class='Area' />
           </pane>
         </panes>
         <rows />
-        <cols>[federated.0coo0z20nya3av16k9lp10lpn3f2].[tyr:year_of_amortisation:qk]</cols>
+        <cols />
       </table>
       <simple-id uuid='{6261ACE5-9857-4A55-A656-E63DB0B77603}' />
     </worksheet>
@@ -2140,8 +2182,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='45' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='44' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='43' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='42' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='184' h='24000' id='3' is-fixed='true' name='Total Project Cost' w='49200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2833,75 +2875,28 @@
     <window class='worksheet' maximized='true' name='Sum of Total Project Cost vs. Sum of Savings'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='360'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='2147483647'>
+          <strip size='108'>
             <card type='columns' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='108'>
             <card type='rows' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='72'>
             <card type='title' />
           </strip>
         </edge>
       </cards>
       <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.0coo0z20nya3av16k9lp10lpn3f2].[tyr:Calculation_1183602338476273664:qk]</field>
-            <field>[federated.0coo0z20nya3av16k9lp10lpn3f2].[tyr:year_of_amortisation:qk]</field>
-            <field>[federated.0coo0z20nya3av16k9lp10lpn3f2].[yr:Calculation_1183602338476273664:ok]</field>
-          </color-one-way>
-        </highlight>
         <default-map-tool-selection tool='2' />
       </viewpoint>
       <simple-id uuid='{CA6391FB-EE97-4684-9DB4-9E7D94C5BCDD}' />
     </window>
   </windows>
-  <thumbnails>
-    <thumbnail height='95' name='Sum of Total Project Cost vs. Sum of Savings' width='192'>
-      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
-    </thumbnail>
-  </thumbnails>
 </workbook>
